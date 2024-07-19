@@ -10,15 +10,15 @@ The Car Rental System is a solution designed to streamline the process of rentin
 5.Requirements.<br>
 
 <hr>Key Features:</h3><br>
-* <h6>User Registration</h6>
+<h6>User Registration</h6>
 : - Customers can create accounts and log in securely to access the rental system. Rental agencies also have the option to register and manage their profiles.
 Vehicle Inventory Management: Rental agencies can add, edit, and update details of vehicles available for rent, including make, model, year, price, and availability. They can also upload images to showcase the vehicles.
 
-* <h6>Search and Booking</h6>
+<h6>Search and Booking</h6>
 :- Customers can search for available vehicles based on criteria such as location, date, vehicle type, and price range. They can view detailed information about each vehicle and book their chosen rental seamlessly.
 
 
-* <h6>Admin Dashboard</h6>
+<h6>Admin Dashboard</h6>
 : A centralized dashboard for administrators to manage users, vehicles, reservations, payments, and other system settings. Admins have full control over the platform and can generate reports for analysis.
 Notifications and Alerts: Automated email notifications and alerts to keep customers informed about reservation confirmations, payment reminders, and other important updates.
 
