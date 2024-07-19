@@ -1,0 +1,392 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    background-color: #18032d;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Existing CSS */
+.car-listings {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Available h2{
+text-align: center;
+}
+.car-card {
+    width: 300px; /* Set a fixed width for each card */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px; /* Add some margin for spacing between cards */
+    text-align: center; /* Center-align the content inside each card */
+}
+
+.car-card img {
+    width: 100%; /* Ensures the image fills the entire width of its container */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures the aspect ratio of the image is maintained */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* New CSS */
+header h1 a{
+    color: #ff6600; /* Change this color to your desired color */
+}
+
+nav a {
+    color: #ff6600; /* Change this color to your desired color */
+}
+
+nav a:hover {
+    color: #fff; /* Change this color to your desired color */
+}
+
+.hero {
+   
+    background-image: url('hero-background.jpg');
+
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.hero-content {
+    text-align: center;
+    font-size: 24px; /* Adjust the font size as needed */
+}
+.hero-content form {
+    font-size: 18px; /* Adjust the font size of the form */
+}
+
+.hero-content input[type="text"],
+.hero-content input[type="date"],
+.hero-content button {
+    font-size: 16px; /* Adjust the font size of the input fields and button */
+    padding: 10px 20px; /* Increase the padding for better visibility and interaction */
+}
+.car-listings {
+    padding: 20px;
+}
+/* CSS for About section */
+.about-section {
+    background-color: #f9f9f9;
+    padding: 50px 0; /* Adjust the padding as needed */
+}
+
+.about-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-section h2 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.car-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #2a054f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* CSS for Contact section */
+.contact-section {
+    background-color: #f2f2f2;
+    padding: 50px 0; /* Adjust the padding as needed */
+}
+
+.contact-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section form input,
+.contact-section form textarea,
+.contact-section form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section form textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.contact-section form button {
+    background-color:#3b0f67;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-section form button:hover {
+    background-color: #af3ced;
+}
+
+/* Login and Signup Form Styling */
+.login-form, .signup-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.booked1{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.booked1 h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-form h2, .signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form input, .signup-form input, .login-form button, .signup-form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.login-form p, .signup-form p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-form a, .signup-form a {
+    color: blue;
+    text-decoration: none;
+}
+
+.login-form a:hover, .signup-form a:hover {
+    text-decoration: underline;
+}
+/* CSS for Rent Now button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6020a0;
+    color: #fdfcfc;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn a{
+    color:rgb(248, 247, 248)
+}
+.btn:hover {
+    background-color:  #af3ced;
+    color: #fff;
+}
+.btn a:hover{
+    color:#fdfcfc
+}
+
+
+
+.car-card p {
+    font-size: 16px;
+    margin-bottom: 10px; /* Increase or decrease this value as needed */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6020a0;
+    color: #fdfcfc;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Add margin to the top of the button */
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the footer stays at the bottom */
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.car-details {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.car-details .container {
+    padding: 20px;
+}
+
+footer {
+    background-color: #18032d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; 
+}
+
+.car-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.car-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.car-details ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.car-details ul li {
+    margin-bottom: 5px;
+}
+
+.car-details ul li strong {
+    font-weight: bold;
+}
+
+.car-details .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6020a0;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.car-details .btn:hover {
+    background-color: #af3ced;
+}
+.spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.spec-table td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+}
+
+.spec-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.spec-table tr:hover {
+    background-color: #ddd;
+}
+
+.spec-table td:first-child {
+    font-weight: bold;
+    width: 30%;
+}
+
+.spec-table td:last-child {
+    width: 70%;
+}
+
+
+
