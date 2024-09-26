@@ -1,30 +1,45 @@
-# CarRental-Website
-The Car Rental System is a solution designed to streamline the process of renting vehicles for both customers and rental agencies. It aims to provide a user-friendly platform where customers can easily search, book, and manage their car rentals, while rental agencies can efficiently manage their fleet and reservations.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=F72EE2&size=25&lines=Welcome+to+Car+Rental+Website!;Streamlining+your+vehicle+rental+experience" />
+</p>
+<h1 align="center">Hi there👋, I'm Shobhit Chauhan</h1>
+<h3 align="center">A passionate developer creating a seamless car rental solution</h3>
 
-<h3>Table of Content:</h3>
+## About the Project
+The Car Rental System is designed to streamline the process of renting vehicles for both customers and rental agencies. It provides a user-friendly platform where customers can easily search, book, and manage their car rentals, while rental agencies can efficiently manage their fleet and reservations.
 
-1.Home Page.<br>
-2.Login Page.<br>
-3.Admin Login.<br>
-4.Car Listing Page.<br>
-5.Requirements.<br>
+## System Features 🌟
 
-<hr>Key Features:</h3><br>
-<h6>User Registration</h6>
-: - Customers can create accounts and log in securely to access the rental system. Rental agencies also have the option to register and manage their profiles.
-Vehicle Inventory Management: Rental agencies can add, edit, and update details of vehicles available for rent, including make, model, year, price, and availability. They can also upload images to showcase the vehicles.
+### 1. Home Page 🏠
+- A welcoming interface that introduces users to the car rental service, showcasing featured vehicles and promotions.
 
-<h6>Search and Booking</h6>
-:- Customers can search for available vehicles based on criteria such as location, date, vehicle type, and price range. They can view detailed information about each vehicle and book their chosen rental seamlessly.
+### 2. User Login 🔑
+- Secure login for customers and rental agencies, ensuring a personalized experience with account management capabilities.
 
+### 3. Admin Login ⚙️
+- Dedicated access for administrators to oversee operations, manage users, and maintain system integrity.
 
-<h6>Admin Dashboard</h6>
-: A centralized dashboard for administrators to manage users, vehicles, reservations, payments, and other system settings. Admins have full control over the platform and can generate reports for analysis.
-Notifications and Alerts: Automated email notifications and alerts to keep customers informed about reservation confirmations, payment reminders, and other important updates.
+### 4. Car Listing Page 🚗
+- A comprehensive page displaying all available vehicles with filters for location, price, type, and more, making it easy to find the perfect ride.
 
+### 5. Requirements 📋
+- Clear guidelines on software prerequisites, including XAMPP for local hosting and MySQL for database management.
 
-<h4>Requirements:</h4><br>
-1.XAMPP is required to run the project. <br> 2.The project will be hosted on a localhost server.
+### 6. Key Features 💡
+- **User Registration**: Seamless account creation for customers and agencies.
+- **Vehicle Management**: Effortlessly add, edit, and showcase vehicle details.
+- **Search & Booking**: Intuitive search functionality for a hassle-free booking experience.
+- **Admin Dashboard**: All-in-one management tool for efficient oversight of users, vehicles, and reservations.
 
-<h4>Database:</h4><br>
-1.The database is stored in a folder called users.<br> 2.The database is stored in the root of the XAMPP server.<br> 3.The database is imported to the XAMPP server. <br>4.Database used is MySQL.
+## Technologies Used: <img src='https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif' width="40" height="30px">
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,php,mysql" />
+  <br>
+  <img src="https://skillicons.dev/icons?i=bootstrap,git,github" />
+  <br>
+</div>
+
+### Learning from this Project:
+<div align="left">
+<img src="https://skillicons.dev/icons?i=php" />
+</div>
+
